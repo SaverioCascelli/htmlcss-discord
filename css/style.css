@@ -202,7 +202,11 @@ footer .container{
     display: flex;
     align-items: flex-start;
     justify-content: left;
-    width: calc(100% / 3 *2);
+    width: calc(100% / 3 * 2);
+}
+
+#top-right-footer .list{
+    width: calc(100% / 4);
 }
 
 #top-right-footer ul{
