@@ -189,13 +189,28 @@ footer .bottom{
 }
 
 footer .container{
-    display: flex;
-    
+    display: flex; 
 }
 
 #top-left-footer{
     width: calc(100% / 3);
-    height: 160px;
+}
+
+#top-left-footer > *{
+    padding-bottom: 10px;
+}
+
+#top-left-footer img{
+    height: 14px;
+    display: inline-block;
+}
+
+#top-left-footer span , .social a{
+    color: white;
+}
+
+#top-left-footer h3{
+    color: rgb(114, 137, 218);
 }
 
 #top-right-footer{
@@ -207,10 +222,15 @@ footer .container{
 
 #top-right-footer .list{
     width: calc(100% / 4);
+    color: white;
 }
 
 #top-right-footer ul{
     list-style: none;
+}
+
+#top-right-footer h5{
+    color: rgb(114, 137, 218);
 }
 
 /* /footer */
