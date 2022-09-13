@@ -174,18 +174,21 @@ main > :nth-child(2n) .art{
 footer{
     background-color: rgb(35, 39, 42);
     padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 footer .top{
-    border-bottom: solid grey;
+    border-bottom: solid grey 1px;
     align-items: flex-start;
     justify-content: flex-start;
+    padding-bottom: 25px;
 }
 
 footer .bottom{
-    padding-top: 15px;
+    margin-top:30px;
     display: flex;
     justify-content: space-between;
+    font-size: 12px;
 }
 
 footer .container{
@@ -197,7 +200,7 @@ footer .container{
 }
 
 #top-left-footer > *{
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 #top-left-footer img{
@@ -209,8 +212,14 @@ footer .container{
     color: white;
 }
 
+#top-left-footer .social a{
+    padding-right: 10px;
+    font-size: 1.3rem;
+}
+
 #top-left-footer h3{
     color: rgb(114, 137, 218);
+    font-size: 40px;
 }
 
 #top-right-footer{
@@ -229,8 +238,13 @@ footer .container{
     list-style: none;
 }
 
+#top-right-footer li{
+    padding-top: 10px;
+}
+
 #top-right-footer h5{
     color: rgb(114, 137, 218);
+    font-size: 18px;
 }
 
 /* /footer */
