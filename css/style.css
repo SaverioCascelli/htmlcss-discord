@@ -46,6 +46,8 @@ body{
     color: white;
 }
 
+/* filter for svg file 
+reference https://stackoverflow.com/questions/22252472/how-to-change-the-color-of-an-svg-element*/
 .filter-grey-background{
     filter: invert(100%) sepia(79%) saturate(156%) hue-rotate(213deg) brightness(116%) contrast(93%);
 }
@@ -53,6 +55,9 @@ body{
 .filter-white-background{
     filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(300deg) brightness(105%) contrast(103%);
 }
+/* filter for svg file*/ 
+
+
 
 /* header */
 
