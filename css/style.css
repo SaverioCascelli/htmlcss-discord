@@ -21,9 +21,8 @@ body{
 
 .a-button{
     background-color: white;
-    padding: 10px 15px;
-    border-radius: 40px 40px;
-    font-size: 14px;
+    padding: 1em 1.5em;
+    border-radius: 1.5em 1.5em;
     font-weight: 600;
     text-decoration: none;
 }
@@ -68,6 +67,10 @@ header nav ul{
 header nav li{
     padding: 0 20px;
 }
+
+header .a-button{
+    font-size: 12px;
+}
 /* /header */
 
 /* jumbotron */
@@ -102,10 +105,6 @@ header nav li{
 
 .jumbotron .download{
     text-align: center;
-}
-
-.jumbotron .download >*{
-    font-size: 20px;
 }
 
 /* /jumbotron */
