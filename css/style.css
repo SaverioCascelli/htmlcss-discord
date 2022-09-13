@@ -161,11 +161,12 @@ main > :nth-child(2n) .art{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5%;
+    padding: 5% 0;
 }
 
 .last-main .main-text{
     text-align: center;
+    padding: 0 5%;
 }
 
 .last-main img{
