@@ -168,6 +168,10 @@ main > :nth-child(2n) .art{
     text-align: center;
 }
 
+.last-main img{
+    width: 100%;
+}
+
 .last-main .stars{
     padding: 2%;
     background-image: url(../img/stars.svg);
