@@ -73,23 +73,26 @@ header nav li{
 /* jumbotron */
 
 .jumbotron{
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
     height: 550px;
     background-image: url("../img/jumbo.png");
     background-size: cover;
     color: white;
 }
 
-.jumbotron h1{
-    font-size: 50px;
+.jumbotron .container{
+    padding-top: 100px;
+}
+
+.jumbotron .container > *{
+    padding-top: 25px;
 }
 
 .jumbotron h1, .text{
     text-align: center;
+}
 
+.jumbotron h1{
+    font-size: 50px;
 }
 
 .jumbotron .text{
