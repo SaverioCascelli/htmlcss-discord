@@ -27,6 +27,10 @@ body{
     text-decoration: none;
 }
 
+.a-button:hover{
+    text-decoration: underline;
+}
+
 .white{
     background-color: white;
     color: rgb(35, 39, 42);
@@ -40,6 +44,14 @@ body{
 .lightblue{
     background-color: rgb(142, 161, 225);
     color: white;
+}
+
+.filter-grey-background{
+    filter: invert(100%) sepia(79%) saturate(156%) hue-rotate(213deg) brightness(116%) contrast(93%);
+}
+
+.filter-white-background{
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(300deg) brightness(105%) contrast(103%);
 }
 
 /* header */
@@ -125,13 +137,22 @@ main .container{
     display: flex;
 }
 
-main > :nth-child(2n){
-    background-color: lightgray;
+.main-gray{
+    background-color: rgb(246, 246, 246);
 }
 
-main > :nth-child(2n) .art{
+/* flipping the side of text and img */
+main .reverse{
     display: flex;
     flex-direction: row-reverse;
+}
+
+main .container{
+    padding: 100px 0;
+}
+
+.wv{
+    display: block;
 }
 
 .main-image{
@@ -142,8 +163,7 @@ main > :nth-child(2n) .art{
     width: 40%;
     text-align: left;
     padding: 5% 5% 5% 0%;
-    color: rgb(35, 39, 42);
-    
+    color: rgb(35, 39, 42);    
 }
 
 .main-text h2{
