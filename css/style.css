@@ -17,17 +17,16 @@
 
 /* header */
 
+header{
+    background-color: rgb(49, 97, 224);
+}
+
 header .container{
     display: flex;
     height: 80px; 
     align-items: flex-start;
     justify-content: space-between;
     align-items: center ;
-}
-
-.logo-image{
-    width: 125px;
-    height: 33px;
 }
 
 header ul{
