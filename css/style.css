@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* tools */
+.debug{
+    border: solid green;
+    background-color: rgba(255, 0, 0, .25);
+}
+/* /tools */
+
+.container{
+    margin: 0 215px;
+}
+
+/* header */
+
+header .container{
+    display: flex;
+    height: 80px; 
+    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.logo-image{
+    width: 125px;
+    height: 33px;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+}
+
+/* /header */
+
+/* jumbotron */
+
+.jumbotron{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 545px;
+}
+
+.jumbotron h1, .text{
+    text-align: center;
+}
+
+.jumbotron h1{
+    width: 600px;
+    height: 50px;
+}
+
+.jumbotron .text{
+    padding: 10px;
+    width: 775px;
+    height: 100px;
+}
+/* /jumbotron */
+
+/* main */
+
+
+main{/* remove after */
+    margin: 10px 0; 
+}
+
+main .container{
+    display: flex;
+}
+
+
+main > :nth-child(2n){
+    background-color: lightgray;
+}
+
+main > :nth-child(2n) .container.art{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+main > :nth-child(2n) .container .main-text{
+    text-align: left;
+}
+
+.main-image, .main-text{
+    padding: 30px;
+    height: 740px;
+}
+
+.main-image{
+    width: 60%;
+}
+
+.main-text{
+    width: 40%;
+    text-align: right;
+}
+
+.last-main .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.last-main .immage{
+    height: 275px;
+}
+
+/* /main */
+
+/* footer */
+footer{
+    height: 667px;
+}
+
+
+footer .top{
+    padding-top: 90px;
+    border-bottom: solid grey;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+footer .bottom{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container{
+    display: flex;
+    
+}
+
+#top-left-footer{
+    padding-top:15px;
+    width: calc(100% / 3);
+    height: 160px;
+}
+
+#top-right-footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 66%;
+    padding: 0 20px;
+}
+
+#top-right-footer .list{
+    padding: 15px;
+}
+
+#top-right-footer ul{
+    list-style: none;
+    width:200px;
+}
+
+/* /footer */
