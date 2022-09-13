@@ -12,7 +12,7 @@
 /* /tools */
 
 .container{
-    margin: 0 215px;
+    margin: 0 15%;
 }
 
 /* header */
@@ -29,9 +29,18 @@ header .container{
     align-items: center ;
 }
 
-header ul{
+header nav{
+    color: white;
+    font-size: 20px;
+}
+
+header nav ul{
     display: flex;
     list-style: none;
+}
+
+header nav li{
+    padding: 0 20px;
 }
 
 /* /header */
