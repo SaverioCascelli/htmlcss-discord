@@ -37,6 +37,11 @@ body{
     color: white;
 }
 
+.lightblue{
+    background-color: rgb(142, 161, 225);
+    color: white;
+}
+
 /* header */
 
 header{
@@ -116,63 +121,62 @@ header .a-button{
 
 /* main */
 
-
-main{/* remove after */
-    margin: 10px 0; 
-}
-
 main .container{
     display: flex;
 }
-
 
 main > :nth-child(2n){
     background-color: lightgray;
 }
 
-main > :nth-child(2n) .container.art{
+main > :nth-child(2n) .art{
     display: flex;
     flex-direction: row-reverse;
-}
-
-main > :nth-child(2n) .container .main-text{
-    text-align: left;
-}
-
-.main-image, .main-text{
-    padding: 30px;
-    height: 740px;
 }
 
 .main-image{
     width: 60%;
 }
 
-.main-text{
+.art .main-text{
     width: 40%;
-    text-align: right;
+    text-align: left;
+    padding: 5% 5% 5% 0%;
+    color: rgb(35, 39, 42);
+    
+}
+
+.main-text h2{
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.main-text p{
+    padding-top: 30px;
+    font-size: 22px;
+    font-weight: 500;
 }
 
 .last-main .container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 5%;
 }
 
-.last-main .immage{
-    height: 275px;
+.last-main .main-text{
+    text-align: center;
 }
 
 /* /main */
 
 /* footer */
 footer{
-    height: 667px;
+    background-color: rgb(35, 39, 42);
+    padding-top: 90px;
 }
 
-
 footer .top{
-    padding-top: 90px;
     border-bottom: solid grey;
     align-items: flex-start;
     justify-content: flex-start;
@@ -190,7 +194,6 @@ footer .container{
 }
 
 #top-left-footer{
-    padding-top:15px;
     width: calc(100% / 3);
     height: 160px;
 }
@@ -198,18 +201,12 @@ footer .container{
 #top-right-footer{
     display: flex;
     align-items: flex-start;
-    justify-content: center;
-    width: 66%;
-    padding: 0 20px;
-}
-
-#top-right-footer .list{
-    padding: 15px;
+    justify-content: left;
+    width: calc(100% / 3 *2);
 }
 
 #top-right-footer ul{
     list-style: none;
-    width:200px;
 }
 
 /* /footer */
