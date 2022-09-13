@@ -168,6 +168,13 @@ main > :nth-child(2n) .art{
     text-align: center;
 }
 
+.last-main .stars{
+    padding: 2%;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    font-size:1.5em;
+}
+
 /* /main */
 
 /* footer */
